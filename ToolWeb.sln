@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ToolWeb", ".", "{5A583535-5
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "54763"
+		SlnRelativePath = "..\ToolWeb\"
 	EndProjectSection
 EndProject
 Global

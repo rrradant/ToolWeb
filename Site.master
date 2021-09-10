@@ -1,0 +1,74 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeFile="Site.Master.vb" Inherits="Site" MasterPageFile="" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            color: #FFFFFF;
+            background-color: #355B87;
+        }
+        .style2
+        {
+            color: #000000;
+            background-color: #FFFFFF;
+        }
+        .style3
+        {
+            color: #FFFFFF;
+            background-color: #FFFFFF;
+        }
+        .style4
+        {
+            font-size: smaller;
+        }
+        .style5
+        {
+            font-size: x-small;
+        }
+        </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1 style="font-family: Arial; background-color: #FFFFFF">
+                    <asp:Image ID="Image1" runat="server" Height="34px" ImageAlign="Left" 
+                        ImageUrl="~/Graphics/SPIROL Coil-03.gif" />
+                    <span class="style1">
+                    &nbsp;SPIROL </span><span class="style3">
+                &nbsp;</span><span class="style2"><span class="style4">TOOLING DATABASE</span></span></h1>
+            <div class="clear hideSkiplink">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">Main Page</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink2" runat="server" 
+                    NavigateUrl="http://enwww/DrawDist">Controlled Drawings</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink3" runat="server" 
+                    NavigateUrl="~/Instructions/ToolWeb Instructions.html">Instructions</asp:HyperLink>
+            </div>
+            </div>
+        </div>
+        <div class="main">
+            <hr />
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+            <br />
+        </div>
+    </div>
+    <div class="style5" align="left">
+        
+        THIS INFORMATION IS THE PROPERTY OF SPIROL INTERNATIONAL. IT IS PROVIDED FOR 
+        PROPRIETARY AND CONFIDENTIAL PURPOSES ONLY AND IS NOT TO BE DISCLOSED, STORED, 
+        REPRODUCED OR USED BY ANYONE OTHER THAN SPIROL WITHOUT THE EXPRESSED WRITTEN 
+        PERMISSION OF SPIROL. Now on CTENG01.</div>
+    </form>
+</body>
+</html>

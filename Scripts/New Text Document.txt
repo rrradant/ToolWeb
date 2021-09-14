@@ -1,0 +1,2 @@
+This is the blank file.
+Encoding should be defined now.

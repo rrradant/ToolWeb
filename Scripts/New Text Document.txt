@@ -1,2 +1,3 @@
 This is the blank file.
 Encoding should be defined now.
+Line editied online in Bitbucket.

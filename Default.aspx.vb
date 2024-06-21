@@ -1,6 +1,4 @@
-﻿Imports System.Drawing
-
-Partial Class _Default
+﻿Partial Class _Default
     Inherits System.Web.UI.Page
 
     Protected Sub DDL_ProductLine_DataBound(ByVal sender As Object, ByVal e As System.EventArgs) Handles DDL_ProductLine.DataBound
